@@ -1,0 +1,19 @@
+.logo{
+    width: 55px;
+    height: 31px;
+    margin-top: 27px;
+    margin-left: 320px;
+}
+
+.nav-container{
+    display: flex;
+    list-style: none;
+    margin-left: 299px;
+    margin-top: 22px;
+    padding-right: 15px;
+}
+
+.nav-item{
+    font-size: 12px;
+    font-style: normal;
+}
