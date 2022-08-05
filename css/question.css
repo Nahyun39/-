@@ -31,7 +31,7 @@ body{
 .nav-container{
     display: flex;
     list-style: none;
-    margin-left: 200px;
+    margin-left: 232px;
     margin-top: 25px;
     padding-right: 15px;
     font-weight: 400;
@@ -40,9 +40,25 @@ body{
 .nav-item{
     font-size: 15px;
     font-style: normal;
-    margin-left: 80px;
+    margin-left: 20px;
     font-weight: 400;
     font-style: normal;
+    border-right: 2px solid rgba(143, 177, 176, 1);
+    padding-right: 35px;
+    padding-left: 25px;
+
+}
+
+.nav-item2{
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    padding-right: 35px;
+    padding-left: 22px;
+
 }
 
 a{
@@ -131,6 +147,7 @@ h1{
     background-color: #afacacaa;
     margin-left: 324px;
     margin-top: 8px;
+    cursor: pointer;
 }
 
 .title{
@@ -142,7 +159,6 @@ h1{
 
 .date{
     padding-left: 26px;
-    padding-top: 3px;
     font-size: 11px;
     color: rgba(136, 134, 134, 1);
 }

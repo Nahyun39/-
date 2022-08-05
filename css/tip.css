@@ -11,6 +11,16 @@ body{
     margin-left: 320px;
 }
 
+.side1{
+    font-size: 12px;
+    margin-left: 588px;
+}
+
+.side2{
+    font-size: 12px;
+    margin-left: 25px;
+}
+
 .search-btn{
     width: 5px;
     height: 5px;
@@ -21,7 +31,7 @@ body{
 .nav-container{
     display: flex;
     list-style: none;
-    margin-left: 200px;
+    margin-left: 232px;
     margin-top: 25px;
     padding-right: 15px;
     font-weight: 400;
@@ -30,9 +40,25 @@ body{
 .nav-item{
     font-size: 15px;
     font-style: normal;
-    margin-left: 80px;
+    margin-left: 20px;
     font-weight: 400;
     font-style: normal;
+    border-right: 2px solid rgba(143, 177, 176, 1);
+    padding-right: 35px;
+    padding-left: 25px;
+
+}
+
+.nav-item2{
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    padding-right: 35px;
+    padding-left: 22px;
+
 }
 
 a{
