@@ -50,7 +50,7 @@ table {
 
 .text{
     position: relative;
-    top: 100px;
+    top: 110px;
     margin-left: 320px;
     font-size: 16px;
     font-weight: 400;
@@ -59,7 +59,7 @@ table {
 }
 
 .wrapper{
-    margin-top: 11px;
+    margin-top: 13px;
 }
 
 .submit{

@@ -11,16 +11,6 @@ body{
     margin-left: 320px;
 }
 
-.side1{
-    font-size: 12px;
-    margin-left: 588px;
-}
-
-.side2{
-    font-size: 12px;
-    margin-left: 25px;
-}
-
 .search-btn{
     width: 5px;
     height: 5px;
@@ -116,38 +106,9 @@ h1{
     border: none;
     width:139px;
     height: 42px;
-    margin-left: 960px;
-    margin-top: 80px;
+    margin-left: 460px;
+    margin-top: 27px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-}
-
-.wrapper{
-    border-radius: 15px;
-    border: none;
-    width: 778px;
-    height: 105px;
-    background-color: #afacacaa;
-    margin-left: 324px;
-    margin-top: 8px;
-}
-
-.title{
-    font-size: 16px;
-    color: rgba(0, 0, 0, 1);
-    padding-left: 26px;
-    padding-top: 32px;
-}
-
-.date{
-    padding-left: 26px;
-    padding-top: 3px;
-    font-size: 11px;
-    color: rgba(136, 134, 134, 1);
-}
-
-.text{
-    margin-top: 30px;
-    
 }
