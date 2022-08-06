@@ -27,7 +27,7 @@
   .v64_775 {
     width: 51px;
     height: 29px;
-    background: url("무제-1.png");
+    background: url("/img/logo.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -523,7 +523,7 @@
   .v64_936 {
     width: 10px;
     height: 10px;
-    background: url("컬러 아래꺽쇠.png");
+    background: url("/img/컬러 아래꺽쇠.png");
     opacity: 1;
     position: absolute;
     top: 582px;
@@ -533,7 +533,7 @@
   .v64_937 {
     width: 30px;
     height: 30px;
-    background: url("컬러 아래꺽쇠.png");
+    background: url("/img/컬러 아래꺽쇠.png");
     opacity: 1;
     position: absolute;
     top: 603px;
