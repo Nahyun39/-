@@ -484,18 +484,26 @@
   .v66_102 {
     width: 10px;
     height: 10px;
+    background: url("/img/하트.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 1px;
+    top: 3px;
     left: 0px;
     overflow: hidden;
   }
   .v66_103 {
     width: 10px;
     height: 11px;
+    background: url("/img/하트.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 3px;
     left: 40px;
     overflow: hidden;
   }
@@ -538,9 +546,13 @@
   .v66_107 {
     width: 10px;
     height: 12px;
+    background: url("/img/스크랩.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 2px;
     left: 76px;
     overflow: hidden;
   }
@@ -632,10 +644,14 @@
   }
   .v66_122 {
     width: 11px;
-    height: 11px;
+    height: 13px;
+    background: url("/img/하트.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 1px;
     left: 27px;
     overflow: hidden;
   }
@@ -666,6 +682,10 @@
   .v66_129 {
     width: 11px;
     height: 13px;
+    background: url("/img/하트.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 558px;
@@ -755,6 +775,10 @@
   .v121_641 {
     width: 11px;
     height: 13px;
+    background: url("/img/하트.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 653px;
