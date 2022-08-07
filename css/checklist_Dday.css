@@ -433,24 +433,28 @@
     text-align: left;
   }
   .v64_1383 {
-    width: 10px;
-    height: 10px;
-    background: url("/img/컬러 아래꺽쇠.png");
+    width: 30px;
+    height: 50px;
+    background: url("/img/오른쪽 꺽쇠.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 582px;
-    left: 484px;
-    /* border: 4px solid rgba(77,118,123,1); */
+    top: 570px;
+    left: 500px;
   }
   .v64_1384 {
     width: 30px;
-    height: 30px;
-    background: url("/img/컬러 아래꺽쇠.png");
+    height: 50px;
+    background: url("/img/왼쪽 꺽쇠.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 603px;
+    top: 570px;
     left: 431px;
-    /* border: 4px solid rgba(77,118,123,1); */
   }
   .v64_1385 {
     width: 25px;
