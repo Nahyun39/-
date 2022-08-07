@@ -125,16 +125,59 @@ h1{
     margin-top: -30px;
 }
 
-.write{
+.submit{
+    font-size: 12px;
+    font-weight: 600;
+    width: 55px;
+    height: 30px;
+    margin-left: 1040px;
+    margin-top: 100px;
     background-color: #92B5B4;
     color: white;
     border-radius: 13px;
     border: none;
-    width:139px;
-    height: 42px;
-    margin-left: 960px;
-    margin-top: 80px;
-    font-size: 16px;
-    font-weight: 600;
     cursor: pointer;
+}
+
+.wrapper{
+    margin-left: 320px;
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+
+.input{
+    width: 686px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(146, 181, 180, 0.5);
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-left: 40px;
+}
+
+.input2{
+    width: 686px;
+    height: 182px;
+    border-radius: 10px;
+    border: 1px solid #92B5B4;
+    margin-left: 88px;
+    margin-top: -11px;
+}
+
+.text{
+    display: flex;
+    margin-top: 20px;
+}
+
+.text-box{
+    width: 686px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #92B5B4;
+    margin-left: 40px;
+}
+
+.gak{
+    
 }
