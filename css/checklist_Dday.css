@@ -27,7 +27,7 @@
   .v64_1338 {
     width: 51px;
     height: 29px;
-    background: url("무제-1.png");
+    background: url("/img/logo.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -278,9 +278,9 @@
     left: 893px;
     border-radius: 50%;
   }
-  .name {
+  /* .name {
     color: #fff;
-  }
+  } */
   .v64_1368 {
     width: 98px;
     height: 95px;
@@ -291,9 +291,9 @@
     left: 93px;
     border-radius: 50%;
   }
-  .name {
+  /* .name {
     color: #fff;
-  }
+  } */
   .v64_1372 {
     width: 347px;
     height: 373px;
@@ -435,7 +435,7 @@
   .v64_1383 {
     width: 10px;
     height: 10px;
-    background: url("컬러 아래꺽쇠.png");
+    background: url("/img/컬러 아래꺽쇠.png");
     opacity: 1;
     position: absolute;
     top: 582px;
@@ -445,7 +445,7 @@
   .v64_1384 {
     width: 30px;
     height: 30px;
-    background: url("컬러 아래꺽쇠.png");
+    background: url("/img/컬러 아래꺽쇠.png");
     opacity: 1;
     position: absolute;
     top: 603px;
@@ -565,9 +565,9 @@
     opacity: 1;
     text-align: left;
   }
-  .name {
+  /* .name {
     color: #fff;
-  }
+  } */
   .v64_1232 {
     width: 127px;
     color: rgba(0,0,0,1);
