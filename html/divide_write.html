@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YoungCha</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/divide.css">
+    <link rel="stylesheet" href="../css/divide_write.css">
 
 </head>
 <body>
@@ -37,14 +37,33 @@
         <button class="relevant">최신순</button>
     </div>
     <div class="search-box">
-        <input type="text" class="search">
-        <input type="image" class="search-btn" value="submit" src="../img/search.png">
+
     </div>
-    <button onclick="window.location.href='divide_write.html'" class="write">나눔 등록하기</button>
-    <div class="wrapper">
-        <img src="../img/deal1.png" class="deal1">
-        <p>분무기</p>
-        <p>1개</p>
+    <input type="submit" value="등록" class="submit">
+    <form class="write-box" action="write.html">
+        <div class="wrapper">
+            <label for="title" class="title">물품명</label>
+            <input type="text" class="input"><br>
+        </div>
+        <div class="wrapper">
+            <label for="title" class="title">개수</label>
+            <button class="gak">각</button>
+            <button class="chong">총</button>
+            <input type="text" class="input"><br>
+            <p>물품의 종류가 여러개 일 때는 ‘각’이나 ‘총’을 선택해주세요.</p>
+        </div>
+        <div class="wrapper">
+            <label for="title" class="title">지역명</label>
+            <input type="text" class="text-box"><br>
+        </div>
+        <div class="wrapper">
+            <label for="title" class="text">코멘트</label>
+            <textarea type="text" class="input2" placeholder="물품 설명이나 요청사항이 필요하다면 적어주세요"></textarea>
+        </div> 
+    </form>
+    <div class="input-file">
+        <label for="upload01" class="file-label"></label>
+        <input type="file" name="" id="upload01" class="file-upload" />
     </div>
 </body>
 </html>
