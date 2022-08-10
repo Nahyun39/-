@@ -722,13 +722,13 @@
     overflow: hidden;
   }
   .v102_2025 {
-    width: 113px;
+    width: 145px;
     height: 38px;
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
     top: 772px;
-    left: 593px;
+    left: 570px;
     border: 2px solid rgba(77,118,123,1);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -737,31 +737,36 @@
     overflow: hidden;
   }
   .v102_2026 {
-    width: 7px;
-    height: 15px;
+    width: 35px;
+    height: 20px;
+    background: url("/img/컬러 아래꺽쇠.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 795px;
-    left: 695px;
-    border: 3px solid rgba(77,118,123,1);
-    transform: rotate(-89deg);
+    top: 783px;
+    left: 668px;
   }
   .v102_2027 {
-    width: 7px;
-    height: 15px;
+    width: 35px;
+    height: 20px;
+    opacity: 1;
+    background: url("/img/컬러 아래꺽쇠.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 795px;
-    left: 942px;
-    border: 3px solid rgba(77,118,123,1);
-    transform: rotate(-89deg);
+    top: 783px;
+    left: 918px;
   }
   .v102_2029 {
     width: 30px;
     color: rgba(0,0,0,1);
     position: absolute;
     top: 783px;
-    left: 633px;
+    left: 625px;
     font-family: Noto Sans;
     font-weight: Regular;
     font-size: 12px;
