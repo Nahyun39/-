@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoungCha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/divide_write.css">
+
+</head>
+<body>
+    <header>
+        <nav class>
+            <a href="./login_pre.html">
+                <img src="../img/logo.png" class="logo">
+            </a>
+            <a href="login_pre.html" class="side1">로그아웃</a>
+            <a href="mypage.html" class="side2">마이페이지</a>
+            <ul class="nav-container">
+                <li class="nav-item"><a href="">이사 견적 내기</a></li>
+                <li class="nav-item"><a href="./divide.html">나눔 장터</a></li>
+                <li class="nav-item"><a href="./tip.html">고수의 꿀팁</a></li>
+                <li class="nav-item"><a href="./question.html">초보 이사러의 궁금증</a></li>
+                <li class="nav-item2"><a href="">우리 동네 이야기</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>나눔 장터</h1>
+    <div class="sub-container">
+        <p class="green">쓸모</p>
+        <p class="black">없는 &nbsp;</p>
+        <p class="black">물건도 &nbsp;</p>
+        <p class="black">나누면 &nbsp;</p>
+        <p class="green">쓸모</p>
+        <p class="black">있다!!</p>
+    </div>
+    <div class="search-box">
+
+    </div>
+    <input type="submit" value="등록" class="submit">
+        <div class="wrapper">
+            <label for="title" class="title">물품명</label>
+            <input type="text" class="input"><br>
+        </div>
+        <div class="wrapper">
+            <label for="title" class="title">개수</label>
+            <div class="choose">
+                <button class="gak">각</button>
+                <button class="gak">총</button>
+                <input type="text" class="input3"><br>
+            </div>
+            <p class="sub-choose">물품의 종류가 여러개 일 때는 ‘각’이나 ‘총’을 선택해주세요.</p>
+        </div>
+        <div class="wrapper">
+            <label for="title" class="title">지역명</label>
+            <!-- <input type="text" class="text-box"><br> -->
+            <select name="sido1" id="sido1"></select>
+            <select name="gugun1" id="gugun1"></select>
+        </div>
+        <div class="wrapper">
+            <label for="upload01" class="file-label">이미지 추가</label>
+            <input type="file" name="" id="upload01" class="file-upload" />
+        </div>
+        <div class="wrapper">
+            <label for="title" class="text">코멘트</label>
+            <textarea type="text" class="input2" placeholder="물품 설명이나 요청사항이 필요하다면 적어주세요"></textarea>
+        </div> 
+        <footer class="footer">
+
+        </footer>
+    <script src="../js/chooseNum.js"></script>
+    <script src="../js/sidogun.js"></script>
+</body>
+</html>
