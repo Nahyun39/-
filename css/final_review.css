@@ -541,6 +541,8 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     overflow: hidden;
+    border: rgba(245,245,245,1);
+    outline-color:  rgba(245,245,245,1);;
   }
   .v101_1500 {
     width: 550px;
@@ -555,6 +557,8 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     overflow: hidden;
+    border: rgba(245,245,245,1);
+    outline-color:  rgba(245,245,245,1);;
   }
   .v102_1626 {
     width: 550px;
@@ -569,6 +573,8 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     overflow: hidden;
+    border: rgba(245,245,245,1);
+    outline-color:  rgba(245,245,245,1);;
   }
   .v101_1367 {
     width: 300px;
