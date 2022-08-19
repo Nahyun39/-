@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/bed_living.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bed_living.css">
     <title>YoungCha</title>
 </head>
 <body>
-    <div class="v100_181">
         <header>
             <nav class>
                 <a href="./login_pre.html">
@@ -26,41 +25,32 @@
                 </ul>
             </nav>
         </header>
-        </div>
-        <div class="v100_205"></div>
-        <div class="v100_206">
-            <span class="v100_207">짐 정보 입력</span>
-        </div>
-        <a href="movingDay.html" class="v100_222">이사 예정일</a>
-        <a href="movingQuote_start.html" class="v100_223">출발지 정보</a>
-        <a href="movingQuote_des.html" class="v100_224">도착지 정보</a>
-        <a href="#" class="v100_225">짐 정보 입력</a>
-        <a href="requests.html" class="v100_226">요청 사항</a>
-        <a href="final_review_fin.html" class="v102_1618">최종 리뷰</a>
-        <div class="v100_231">
-            <div class="v100_232">
-                <div class="v100_233">
-                    <button class="v100_234"></button>
+
+        <h1>짐 정보 정리</h1>
+        <div class="line"></div>
+        <section>
+            <div class="vertical-container">
+                <li class="date">이사 예정일</li>
+                <li class="movingQuote_start">출발지 정보</li>
+                <li class="movingQuote_des">도착지 정보</li>
+                <div class="box-line">
+                    <li class="info">짐 정보 입력</li>
                 </div>
+                <li class="requests">요청 사항</li>
+                <li class="review">최종 리뷰</li>
             </div>
-            <span class="v100_235">다음</span>
+            <div class="line-vertical"></div>   
+        </section>
+
+        <div class="select">
+            <button class="btn" onclick="window.location.href='bed_living.html'">침실/거실 가구</button>
+            <button class="btn" onclick="window.location.href='lib.html'">서재 가구</button>
+            <button class="btn" onclick="window.location.href='digital.html'">디지털/생활 가전</button>
+            <button class="btn" onclick="window.location.href='kitchen.html'">주방 가전</button>
+            <button class="btn" onclick="window.location.href='etc.html'">기타</button>
         </div>
-        <div class="v100_276"></div>
-        <div class="v100_277"></div>
-        <div class="v100_499"></div>
-        <div class="v100_500"></div>
-        <div class="v100_501"></div>
-        <div class="v100_502"></div>
-        <div class="v100_503"></div>
-        <span class="v100_504">침실/거실 가구</span>
-        <span class="v100_506">서재 가구</span>
-        <span class="v100_507">디지털/생활 가전</span>
-        <span class="v100_508">주방 가전</span>
-        <span class="v100_509">기타</span>
-        <span class="v100_521">해당 짐이 있다면 클릭해주세요. 클릭시 진하게 표시되며 선택됩니다.</span>
-        <button class="v100_296" id="" type="submit">
-            <img class="btn-img" src="/img/옷장.png">
-        </button>
+        <p class="sub">해당 짐이 있다면 클릭해주세요.</p>
+
         <span class="v100_284">옷장 - 단품</span>
         <span class="v100_530">침대</span>
         <span class="v100_524">행거</span>
@@ -70,31 +60,44 @@
         <span class="v100_527">화장대</span>
         <span class="v100_522">옷장 - 연결장</span>
         <span class="v100_523">시스템 행거</span>
-        <button class="v100_304" id="" type="submit">
-            <img class="btn-img" src="/img/연결장.png">
+        <div class="img">
+
         </div>
+        <button class="v100_304" id="" type="submit">
+            <img class="btn-img" src="../img/연결장.png">
+        </button>
+        <button class="v100_400" id="" type="submit">
+            <img class="btn-img" src="../img/옷장.png">
+        </button>
         <button class="v100_297" id="" type="submit">
-            <img class="btn-img" src="/img/시스템 행거.png">
+            <img class="btn-img" src="../img/시스템 행거.png">
         </button>
         <button class="v100_298" id="" type="submit">
-            <img class="btn-img" src="/img/행거.png">
+            <img class="btn-img" src="../img/행거.png">
         </button>
         <button class="v100_299" id="" type="submit">
-            <img class="btn-img" src="/img/서랍장.png">
+            <img class="btn-img" src="../img/서랍장.png">
         </button>
         <button class="v100_300" id="" type="submit">
-            <img class="btn-img" src="/img/식탁.png">
+            <img class="btn-img" src="../img/식탁.png">
         </button>
         <button class="v100_301" id="" type="submit">
-            <img class="btn-img" src="/img/화장대.png">
+            <img class="btn-img" src="../img/화장대.png">
         </button>
         <button class="v100_302" id="" type="submit">
-            <img class="btn-img" src="/img/쇼파.png">
-        </div>
-        <button class="v100_529" id="" type="submit">
-            <img class="btn-img" src="/img/침대.png">
+            <img class="btn-img" src="../img/쇼파.png">
         </button>
-        <span class="v100_1102">해당 짐에 아이콘이 없을 경우, 기타 란에서 직접 입력해주세요.</span>
+        <button class="v100_529" id="" type="submit">
+            <img class="btn-img" src="../img/침대.png">
+        </button>
+
+        
+    <div class="bottom-box">
+        <button class="return" onclick="window.location.href='movingQuote_des.html'">이전</button>
+        <button class="next" onclick="window.location.href='etc.html'">다음</button>
     </div>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>
