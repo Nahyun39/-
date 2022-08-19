@@ -321,14 +321,20 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    color: rgba(136,134,134,1);
+    font-family: Noto Sans;
+    font-weight: Thin;
+    font-size: 8px;
+    text-align: left;
   }
+  
   .v64_1306 {
     width: 18px;
     height: 18px;
     background: rgba(233,240,240,1);
     opacity: 1;
     position: absolute;
-    top: 271px;
+    top: 268px;
     left: 676px;
     border: 2px solid rgba(77,118,123,1);
     border-top-left-radius: 5px;
@@ -343,7 +349,7 @@
     background: rgba(233,240,240,1);
     opacity: 1;
     position: absolute;
-    top: 321px;
+    top: 318px;
     left: 676px;
     border: 2px solid rgba(77,118,123,1);
     border-top-left-radius: 5px;
@@ -358,7 +364,7 @@
     background: rgba(233,240,240,1);
     opacity: 1;
     position: absolute;
-    top: 370px;
+    top: 367px;
     left: 676px;
     border: 2px solid rgba(77,118,123,1);
     border-top-left-radius: 5px;
@@ -373,7 +379,7 @@
     background: rgba(233,240,240,1);
     opacity: 1;
     position: absolute;
-    top: 420px;
+    top: 417px;
     left: 676px;
     border: 2px solid rgba(77,118,123,1);
     border-top-left-radius: 5px;
@@ -388,7 +394,7 @@
     background: rgba(233,240,240,1);
     opacity: 1;
     position: absolute;
-    top: 470px;
+    top: 467px;
     left: 676px;
     border: 2px solid rgba(77,118,123,1);
     border-top-left-radius: 5px;
@@ -397,7 +403,7 @@
     border-bottom-right-radius: 5px;
     overflow: hidden;
   }
-  .v64_1312 {
+  /* .v64_1312 {
     width: 110px;
     color: rgba(136,134,134,1);
     position: absolute;
@@ -408,7 +414,7 @@
     font-size: 8px;
     opacity: 1;
     text-align: left;
-  }
+  } */
   .v64_1313 {
     width: 80px;
     color: rgba(255,255,255,1);
@@ -468,6 +474,7 @@
     position: absolute;
     top: 570px;
     left: 431px;
+    cursor: pointer;
   }
   .v64_1318 {
     width: 25px;
@@ -477,6 +484,7 @@
     top: 593px;
     left: 373px;
     overflow: hidden;
+    cursor: pointer;
   }
   .v64_1319 {
     width: 5px;
