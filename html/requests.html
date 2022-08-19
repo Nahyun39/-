@@ -4,85 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/requests.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/requests.css">
     <title>YoungCha</title>
 </head>
+
 <body>
-    <!-- <script src="review_keyword.js"></script> -->
-    <div class="v102_1694">
-        <div class="v102_1695"></div>
-        <div class="v102_1696"></div>
-        <div class="v102_1697"></div>
-        <div class="v102_1699">마이페이지</a>
-        <div class="v102_1700">
-            <div class="v102_1701">
-                <div class="v102_1702"></div>
-                <div class="v102_1703">
-                    <a href="movingDay.html" class="v102_1704">이사 견적 내기</a>
-                </div>
-            </div>
-            <div class="v102_1705">
-                <div class="v102_1706"></div>
-                <div class="v102_1707">
-                    <a href="./divide.html" class="v102_1708">나눔 장터</a>
-                </div>
-            </div>
-            <div class="v102_1709">
-                <div class="v102_1710"></div>
-                <a href="./tip.html" class="v102_1711">고수의 꿀팁</a>
-            </div>
-            <div class="v102_1712">
-                <div class="v102_1713"></div>
-                <a href="./question.html" class="v102_1714">초보 이사러의 궁금증</a>
-            </div>
-            <div class="v102_1715">
-                <div class="v102_1716"></div>
-                <span class="v102_1717">우리 동네 이야기</span>
-            </div>
-        </div>
-        <div class="v102_1718"></div>
-        <div class="v102_1719">
-            <span class="v102_1720">요청 사항</span>
-        </div>
-        <a href="movingDay.html" class="v102_1721">이사 예정일</a>
-        <a href="movingQuote_start.html" class="v102_1722">출발지 정보</a>
-        <a href="movingQuote_des.html" class="v102_1723">도착지 정보</a>
-        <a href="bed_living.html" class="v102_1724">짐 정보 입력</a>
-        <a href="#" class="v102_1725">요청 사항</a>
-        <a href="final_review_fin.html" class="v102_1726">최종 리뷰</a>
-        <div class="v102_1727">
-            <div class="v102_1728">
-                <div class="v102_1729">
-                    <div class="v102_1730"></div>
-                </div>
-            </div>
-            <span class="v102_1731">다음</span>
-        </div>
-        <!-- <div class="name"></div> -->
-        <div class="v102_1733"></div>
-        <div class="v102_1734"></div>
-        <div class="v102_1757">
-            <span class="v102_1758">키워드</span>
-        </div>
-        <div class="v102_1759"></div>
-        <div class="v102_1760"></div>
-        <div class="v102_1761"></div>
-        <div class="v102_1762"></div>
-        <div class="v102_1763"></div>
-        <div class="v102_1764"></div>
-        <div class="v102_1773"></div>
-        <b class="v102_1765">원룸</span>
-        <nav class="menu">
-            <a href="#" class="v102_1766" data-menu="1">꼼꼼해요</a>
-            <a href="#" class="v102_1767" data-menu="2">반려동물</a>
-            <a href="#" class="v102_1768" data-menu="3">친절해요</a>
-            <a href="#" class="v102_1770" data-menu="4">시간 엄수</a>
-            <a href="#" class="v102_1769" data-menu="5">추가금 x</a>
-            <a href="#" class="v102_1774" data-menu="6">빠른 소통</a>
+    <header>
+        <nav class>
+            <a href="./login_pre.html">
+                <img src="../img/logo.png" class="logo">
+            </a>
+            <a href="login_pre.html" class="side1">로그아웃</a>
+            <a href="mypage.html" class="side2">마이페이지</a>
+            <ul class="nav-container">
+                <li class="nav-item"><a href="movingDay.html">이사 견적 내기</a></li>
+                <li class="nav-item"><a href="./divide.html">나눔 장터</a></li>
+                <li class="nav-item"><a href="./tip.html">고수의 꿀팁</a></li>
+                <li class="nav-item"><a href="./question.html">초보 이사러의 궁금증</a></li>
+                <li class="nav-item2"><a href="">우리 동네 이야기</a></li>
+            </ul>
         </nav>
-        <input type="text" class="v102_1775" value="키워드에는 없는 추가 요청 사항을 적어주세요.">
-        <span class="v298_12">로그아웃</span>
+    </header>
+
+    <h1>요청 사항</h1>
+    <div class="line"></div>
+    <section>
+        <div class="vertical-container">
+            <li class="date">이사 예정일</li>
+            <li class="movingQuote_start">출발지 정보</li>
+            <li class="movingQuote_des">도착지 정보</li>
+            <li class="info">짐 정보 입력</li>
+            <div class="box-line">
+                <li class="requests">요청 사항</li>
+            </div>
+            <li class="review">최종 리뷰</li>
+        </div>
+        <div class="line-vertical"></div>   
+    </section>
+
+    <h3>키워드</h3>
+    <div class="keyword">
+        <button class="btn">반려동물</button>
+        <button class="btn">꼼꼼해요</button>
+        <button class="btn">친절해요</button>
+        <button class="btn">추가금x</button>
+        <button class="btn">시간 엄수</button>
+        <button class="btn">빠른 소통</button>
     </div>
+
+    <label for="textarea"></label>
+    <textarea class="addrequest" placeholder="키워드에 없는 추가 요청 사항을 적어주세요"></textarea>
+    
+    <div class="bottom-box">
+        <button class="return" onclick="window.location.href='etc.html'">이전</button>
+        <button class="next" onclick="window.location.href='final_review.html'">다음</button>
+    </div>
+    <footer class="footer">
+
+    </footer>
+    <script src="../js/requests.js"></script>
 </body>
 </html>
