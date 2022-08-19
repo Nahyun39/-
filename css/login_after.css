@@ -92,12 +92,6 @@ top: 152px;
 left: 2px;
 overflow: hidden;
 }
-/* .name {
-color: #fff;
-}
-.name {
-color: #fff;
-} */
 .v64_506 {
 width: 218px;
 height: 195px;
@@ -150,9 +144,6 @@ top: 219px;
 left: 770px;
 overflow: hidden;
 }
-/* .name {
-color: #fff;
-} */
 .v64_628 {
 width: 83px;
 height: 80px;
@@ -208,7 +199,13 @@ top: 695px;
 left: 320px;
 overflow: hidden;
 }
-.v64_516 {
+.v64_645 {
+color: rgba(255,255,255,1);
+position: absolute;
+font-family: Inter;
+font-weight: Bold;
+font-size: 16px;
+text-align: center;
 width: 126px;
 height: 113px;
 background: rgba(146,180,179,1);
@@ -222,18 +219,9 @@ border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 overflow: hidden;
-}
-.v64_645 {
-width: 70px;
-color: rgba(255,255,255,1);
-position: absolute;
-top: 46px;
-left: 32px;
-font-family: Inter;
-font-weight: Bold;
-font-size: 16px;
-opacity: 1;
-text-align: left;
+border:none;
+outline-color: none;
+cursor:pointer;
 }
 .v64_653 {
 width: 126px;
@@ -244,7 +232,14 @@ top: 695px;
 left: 493px;
 overflow: hidden;
 }
-.v64_513 {
+.v64_646 {
+color: rgba(255,255,255,1);
+position: absolute;
+font-family: Inter;
+font-weight: Bold;
+font-size: 16px;
+opacity: 1;
+text-align: center;
 width: 126px;
 height: 113px;
 background: rgba(146,180,179,1);
@@ -257,19 +252,9 @@ border-top-right-radius: 15px;
 border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-overflow: hidden;
-}
-.v64_646 {
-width: 110px;
-color: rgba(255,255,255,1);
-position: absolute;
-top: 37px;
-left: 8px;
-font-family: Inter;
-font-weight: Bold;
-font-size: 16px;
-opacity: 1;
-text-align: center;
+border: none;
+outline-color: none;
+cursor: pointer;
 }
 .v64_654 {
 width: 122px;
@@ -280,7 +265,12 @@ top: 695px;
 left: 665px;
 overflow: hidden;
 }
-.v64_518 {
+.v64_647 {
+color: rgba(255,255,255,1);
+font-family: Inter;
+font-weight: Bold;
+font-size: 16px;
+text-align: center;
 width: 122px;
 height: 113px;
 background: rgba(146,180,179,1);
@@ -294,18 +284,9 @@ border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 overflow: hidden;
-}
-.v64_647 {
-width: 60px;
-color: rgba(255,255,255,1);
-position: absolute;
-top: 37px;
-left: 31px;
-font-family: Inter;
-font-weight: Bold;
-font-size: 16px;
-opacity: 1;
-text-align: center;
+border: none;
+outline-color: none;
+cursor: pointer;
 }
 .v64_655 {
 width: 126px;

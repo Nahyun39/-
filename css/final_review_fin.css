@@ -1041,3 +1041,8 @@ a:hover{
   opacity: 1;
   text-align: left;
 }
+.clicked{
+  background-color: #92B5B4;
+  color: white;
+  font-weight: 500;
+}

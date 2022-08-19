@@ -91,12 +91,6 @@ color: rgba(146, 181, 180, 1);
   left: 2px;
   overflow: hidden;
 }
-/* .name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-} */
 .v203_76 {
   width: 218px;
   height: 195px;
@@ -149,9 +143,6 @@ color: rgba(146, 181, 180, 1);
   left: 770px;
   overflow: hidden;
 }
-/* .name {
-  color: #fff;
-} */
 .v203_82 {
   width: 83px;
   height: 80px;
@@ -207,7 +198,13 @@ color: rgba(146, 181, 180, 1);
   left: 320px;
   overflow: hidden;
 }
-.v203_87 {
+.v203_88 {
+  color: rgba(255,255,255,1);
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
   width: 126px;
   height: 113px;
   background: rgba(146,180,179,1);
@@ -221,18 +218,9 @@ color: rgba(146, 181, 180, 1);
   border-bottom-right-radius: 15px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-}
-.v203_88 {
-  width: 70px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 46px;
-  left: 32px;
-  font-family: Inter;
-  font-weight: Bold;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
+  border:none;
+  outline-color: none;
+  cursor:pointer;
 }
 .v203_89 {
   width: 126px;
@@ -259,16 +247,27 @@ color: rgba(146, 181, 180, 1);
   overflow: hidden;
 }
 .v203_91 {
-  width: 110px;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 37px;
-  left: 8px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 16px;
-  opacity: 1;
   text-align: center;
+  width: 126px;
+  height: 113px;
+  background: rgba(146,180,179,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border:none;
+  outline-color: none;
+  cursor:pointer;
 }
 .v203_92 {
   width: 122px;
@@ -295,16 +294,29 @@ color: rgba(146, 181, 180, 1);
   overflow: hidden;
 }
 .v203_94 {
-  width: 60px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 37px;
-  left: 31px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: center;
+  width: 122px;
+  height: 113px;
+  background: rgba(146,180,179,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border: none;
+  outline-color: none;
+  cursor: pointer;
 }
 .v203_95 {
   width: 126px;

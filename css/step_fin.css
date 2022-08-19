@@ -76,7 +76,7 @@ a:hover{
   background: rgba(201,218,217,1);
   opacity: 1;
   position: absolute;
-  top: 673px;
+  top: 700px;
   left: 0px;
   overflow: hidden;
 }
@@ -101,12 +101,6 @@ a:hover{
   opacity: 1;
   text-align: left;
 }
-/* .name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-} */
 .v121_421 {
   width: 250px;
   color: rgba(0,0,0,1);
@@ -146,7 +140,14 @@ a:hover{
   left: 0px;
   overflow: hidden;
 }
-.v121_425 {
+.v121_426 {
+  color: rgba(255,255,255,1);
+  position: absolute;
+  font-family: Noto Sans;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
   width: 55px;
   height: 30px;
   background: rgba(146,180,179,1);
@@ -159,18 +160,9 @@ a:hover{
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
   overflow: hidden;
-}
-.v121_426 {
-  width: 34px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 7px;
-  left: 16px;
-  font-family: Noto Sans;
-  font-weight: Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
+  border:none;
+  outline-color: none;
+  cursor: pointer;
 }
 .v298_15 {
   width: 75px;
