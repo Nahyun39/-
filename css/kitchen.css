@@ -1,74 +1,176 @@
 body{
-margin: 0;
-padding: 0;
-font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .logo{
-width: 55px;
-height: 31px;
-margin-top: 27px;
-margin-left: 320px;
+  width: 55px;
+  height: 31px;
+  margin-top: 27px;
+  margin-left: 320px;
 }
 
 .side1{
-font-size: 12px;
-margin-left: 630px;
+  font-size: 12px;
+  margin-left: 588px;
 }
 
 .side2{
-font-size: 12px;
-margin-left: 25px;
+  font-size: 12px;
+  margin-left: 25px;
 }
 
 .search-btn{
-width: 15px;
-height: 15px;
-margin-top: 8px;
-margin-left: -24px;
+  width: 15px;
+  height: 15px;
+  margin-top: 8px;
+  margin-left: -24px;
 }
 
 .nav-container{
-display: flex;
-list-style: none;
-margin-left: 232px;
-margin-top: 25px;
-padding-right: 15px;
-font-weight: 400;
+  display: flex;
+  list-style: none;
+  margin-left: 232px;
+  margin-top: 25px;
+  padding-right: 15px;
+  font-weight: 400;
 }
 
 .nav-item{
-font-size: 15px;
-font-style: normal;
-margin-left: 20px;
-font-weight: 400;
-font-style: normal;
-border-right: 2px solid rgba(143, 177, 176, 1);
-padding-right: 35px;
-padding-left: 25px;
+  font-size: 15px;
+  font-style: normal;
+  margin-left: 20px;
+  font-weight: 400;
+  font-style: normal;
+  border-right: 2px solid rgba(143, 177, 176, 1);
+  padding-right: 35px;
+  padding-left: 25px;
 
 }
 
 .nav-item2{
-font-size: 15px;
-font-style: normal;
-margin-left: 20px;
-font-weight: 400;
-font-style: normal;
-border: none;
-padding-right: 35px;
-padding-left: 22px;
+  font-size: 15px;
+  font-style: normal;
+  margin-left: 20px;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  padding-right: 35px;
+  padding-left: 22px;
 
 }
 
 a{
-text-decoration: none;
-color:black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover{
-color: rgba(146, 181, 180, 1);
+  color: rgba(146, 181, 180, 1);
 }
+
+h1{
+  font-size: 36px;
+  font-weight: 700;
+  color: rgba(77, 118, 123, 1);
+  margin-left: 315px;
+  margin-top: 43px;
+
+}
+
+.line{
+  width: 100%;
+  height: 10px;
+  background-color: rgba(201, 218, 217, 1);
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 37px;
+
+}
+
+.vertical-container{
+  list-style: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 96px;
+  margin-top: 61px;
+  line-height: 60px;
+}
+
+section{
+  display: inline;
+}
+
+.line-vertical{
+  width: 0px;
+  height: 600px;
+  margin-left: 250px;
+  margin-top: -421px;
+  background-color: rgba(201, 218, 217, 0.3);
+  border: 3px solid rgba(201, 218, 217, 0.3);
+}
+
+.info{
+  color: rgba(132, 168, 169, 1);
+  padding-left: 94.6px;
+  cursor: pointer;
+}
+
+.box-line{
+  width: 250px;
+  height: 56px;
+  background-color: rgba(245, 245, 245, 1);
+  margin-left: -95px;
+  cursor: pointer;
+}
+
+.keyword{
+  margin-left: 400px;
+  margin-top: -46px;
+}
+
+h3{
+  font-size: 20px;
+  color:  #4D767B;
+  margin-left: 315px;
+  margin-top: -520px;
+}
+
+.select{
+  margin-left: 274px;
+  margin-top: -530px;
+}
+
+.btn{
+  border-radius: 15px;
+  width: 123px;
+  height: 38px;
+  border: 2px solid #92B5B4;
+  border-radius: 15px; 
+  background: #FFFFFF;
+  margin-left: 40px;
+  cursor:pointer;
+  background-color: #92B5B4;
+  color: white;
+}
+
+.sub{
+  font-weight: 400;
+  font-size: 12px; 
+  margin-left: 315px;
+  margin-top: 38px;
+}
+
+img{
+  width: 70px;
+  height: 70px;
+}
+.btn-img{
+  width: 70px;
+  height: 70px;
+}
+
 .v100_1061 {
   width: 100%;
   height: 47px;
@@ -529,4 +631,50 @@ img{
   font-size: 10px;
   opacity: 1;
   text-align: left;
+}
+
+.next{
+  background-color: #92B5B4;
+  color: white;
+  width: 60px;
+  height: 34px;
+  border-radius: 13px;
+  border: none;
+  /* margin-left: 1038px; */
+  /* margin-top: -1000px; */
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.return{
+  background-color: #92B5B4;
+  color: white;
+  width: 60px;
+  height: 34px;
+  border-radius: 13px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.bottom-box{
+  float: left;
+  margin-top: 400px;
+  margin-left: 965px;
+}
+
+.clicked{
+  background-color: #92B5B4;
+  color: white;
+  font-weight: 500;
+}
+
+footer{
+  width: 100%;
+  height: 47px; 
+  margin-top: 500px;
+  background-color: #C9DAD9;
+  padding-top: 1px;
 }

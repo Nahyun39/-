@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/kitchen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/kitchen.css">
     <title>YoungCha</title>
 </head>
 <body>
-    <div class="v100_1037">
         <header>
             <nav class>
                 <a href="./login_pre.html">
@@ -25,53 +25,52 @@
                 </ul>
             </nav>
         </header>
-        </div>
-        <div class="v100_1061"></div>
-        <div class="v100_1062">
-            <span class="v100_1063">짐정보 입력</span>
-        </div>
-        <a href="movingDay.html" class="v100_1064">이사 예정일</a>
-        <a href="movingQuote_start.html" class="v100_1065">출발지 정보</a>
-        <a href="movingQuote_des.html" class="v100_1066">도착지 정보</a>
-        <a href="#" class="v100_1067">짐 정보 입력</a>
-        <a href="requests.html" class="v100_1068">요청 사항</a>
-        <a href="final_review_fin.html" class="v102_1621">최종 리뷰</a>
-        <div class="v100_1069">
-            <div class="v100_1070">
-                <div class="v100_1071">
-                    <div class="v100_1072"></div>
+
+        <h1>짐 정보 정리</h1>
+        <div class="line"></div>
+        <section>
+            <div class="vertical-container">
+                <li class="date">이사 예정일</li>
+                <li class="movingQuote_start">출발지 정보</li>
+                <li class="movingQuote_des">도착지 정보</li>
+                <div class="box-line">
+                    <li class="info">짐 정보 입력</li>
                 </div>
+                <li class="requests">요청 사항</li>
+                <li class="review">최종 리뷰</li>
             </div>
-            <span class="v100_1073">다음</span>
+            <div class="line-vertical"></div>   
+        </section>
+
+        <div class="select">
+            <button class="btn" onclick="window.location.href='bed_living.html'">침실/거실 가구</button>
+            <button class="btn" onclick="window.location.href='lib.html'">서재 가구</button>
+            <button class="btn" onclick="window.location.href='digital.html'">디지털/생활 가전</button>
+            <button class="btn" onclick="window.location.href='kitchen.html'">주방 가전</button>
+            <button class="btn" onclick="window.location.href='etc.html'">기타</button>
         </div>
-        <div class="v100_1075"></div>
-        <div class="v100_1076"></div>
-        <div class="v100_1077"></div>
-        <div class="v100_1078"></div>
-        <div class="v100_1079"></div>
-        <div class="v100_1080"></div>
-        <div class="v100_1081"></div>
-        <span class="v100_1082">침실/거실 가구</span>
-        <span class="v100_1083">서재 가구</span>
-        <span class="v100_1084">디지털/생활 가전</span>
-        <span class="v100_1085">주방 가전</span>
-        <span class="v100_1086">기타</span>
-        <span class="v100_1087">해당 짐이 있다면 클릭해주세요. 클릭시 진하게 표시되며 선택됩니다.</span>
-        <span class="v100_1098">해당 짐에 아이콘이 없을 경우, 기타 란에서 직접 입력해주세요.</span>
+        <p class="sub">해당 짐이 있다면 클릭해주세요.</p>
+
         <span class="v100_1088">전자레인지</span>
         <span class="v100_1089">냉장고</span>
         <span class="v100_1090">가스레인지</span>
         <button class="v100_353" id="" type="submit">
-            <img class="btn-img" src="/img/냉장고.png">
+            <img class="btn-img" src="../img/냉장고.png">
         </button>
         <button class="v100_354" id="" type="submit">
-            <img class="btn-img" src="/img/전자레인지.png">
+            <img class="btn-img" src="../img/전자레인지.png">
         </button>
         <button class="v100_355" id="" type="submit">
-            <img class="btn-img" src="/img/가스레인지.png">
+            <img class="btn-img" src="../img/가스레인지.png">
         </button>
-        <span class="v100_1097">정수기</span>
-        <div class="v100_361"></div>
+
+        
+    <div class="bottom-box">
+        <button class="return" onclick="window.location.href='movingQuote_des.html'">이전</button>
+        <button class="next" onclick="window.location.href='etc.html'">다음</button>
     </div>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>
