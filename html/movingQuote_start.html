@@ -29,6 +29,7 @@
 
     <h1>출발지 정보</h1>
     <div class="line"></div>
+
     <section>
         <div class="vertical-container">
             <li class="date">이사 예정일</li>
@@ -41,46 +42,58 @@
             <li class="review">최종 리뷰</li>
         </div>
         <div class="line-vertical"></div>   
-
     </section>
 
-    <table>
-        <tr>
-            <th>주소설정</th>
-            <td><input type="text" id="address_kakao" placeholder="지번, 도로명, 건물 검색" name="address" readonly /></td>
+    <section class="section-addr">
+        <div class="addr1">
+            <span class="txt">주소 설정</span>
+            <input type="text"  class="input" placeholder="지번, 도로명 주소를 입력해주세요">
+        </div>
+        <div class="addr2">
+            <span class="txt">상세 주소</span>
+            <input type="text" class="input" placeholder="상세 주소 입력(동/호수 입력)">
+        </div>
+    </section>
 
-        </tr>
-        <td>아래와 같은 조합으로 검색하시면 더욱 정확한 결과가 검색 됩니다.</td><br>
-        <td>도로명 + 건물번호</td><br>
-        <td>예) 보문로 34다길 2, 도봉로 76가길 55</td><br>
-        <td>지역명(동/리) + 번지</td><br>
-        <td>예) 돈암동 173-1, 미아동 147</td><br>
-        <tr>
-            <th>상세주소</th>
-            <td><input type="text" name="address_detail" class="detail" placeholder="상세주소 입력 (동/호수 등)" /></td>
-        </tr>
-    </table>
-    
-    <span>집형태</span>
-    <button>빌라/연립</button>
-    ​<button>주택</button>
-    <button>오피스텔</button>
-    <button>아파트</button>
-    <button onclick="window.location.href='etc.html'">다음</button>
+    <div class="select1">
+        <span class="txt">집형태</span>
+        <button class="btn">빌라/연립</button>
+        ​<button class="btn1">주택</button>
+        <button class="btn1">오피스텔</button>
+        <button class="btn1">아파트</button>
+    </div>
+    <div class="select">
+        <span class="txt">방구조</span>
+        <button class="btn">원룸</button>
+        <button class="btn1">1.5룸</button>
+        ​<button class="btn1">2룸</button>
+        <button class="btn1">3룸</button>
+        <button class="btn1">4룸</button>
+        <button class="btn1">5룸</button>
+    </div>
+    <div class="select">
+        <span class="txt">층</span>
+        <input type="text" class="floor" placeholder="숫자만 입력">
+        <span>층</span>
+    </div>
+    <div class="select">
+        <span class="txt">엘리베이터</span>
+        <button class="btn2">있음</button>
+        ​<button class="btn1">없음</button>
+    </div>
+    <div class="select">
+        <span class="txt">주차</span>
+        <button class="btn3">가능</button>
+        ​<button class="btn1">불가능</button>
+    </div>
+
+    <div class="bottom-box">
+        <button class="return" onclick="window.location.href='movingDay.html'">이전</button>
+        <button class="next" onclick="window.location.href='movingQuote_des.html'">다음</button>
+    </div>
+    <footer class="footer">
+
+    </footer>
+    <script src="../js/movingQute_start.js"></script>
 </body>
-<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-<script>
-    window.onload = function(){
-        document.getElementById("address_kakao").addEventListener("click", function(){ //주소입력칸을 클릭하면
-            //카카오 지도 발생
-            new daum.Postcode({
-                oncomplete: function(data) { //선택시 입력값 세팅
-                    document.getElementById("address_kakao").value = data.address; // 주소 넣기
-                    document.querySelector("input[name=address_detail]").focus(); //상세입력 포커싱
-                }
-            }).open();
-        });
-    }
-</script>
 </html>
-
